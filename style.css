@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: #444;
+}
+.Main-Header {
+  margin: 50px;
+}
+h1 {
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 0 32px 0 0;
+  /* font-weight: normal; */
+}
+.link {
+  display: inline-block;
+}
+
+.link li {
+  display: inline-block;
+}
+
+.link a {
+  color: #444;
+  text-decoration: none;
+  font-size: 21px;
+  margin: 0 8px;
+}
+/* this also work */
+/* .link li:first-child {
+  text-decoration: underline;
+} */
+
+a.active {
+  border-bottom: 1px solid black;
+}
+
+.link a:hover {
+  color: black;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* this is the main article */
+
+.ListOfBook {
+  padding: 32px;
+}
+.card {
+  background-color: #f7f7f7;
+  height: 540px;
+  display: inline-block;
+  margin-right: 32px;
+  margin-bottom: 20px;
+
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.158), -2px -2px rgba(0, 0, 0, 0.158);
+}
+.card img {
+  width: 300px;
+  height: 450px;
+  border-radius: 20px 20px 0 0;
+}
+.card h2 {
+  margin-top: 6px;
+  width: 300px;
+}
+
+.card img:hover {
+  opacity: 75%;
+  cursor: pointer;
+}
+
+.about {
+  width: 40%;
+  min-width: 870px;
+  margin: 65px 0px 60px 150px;
+}
+.about h3 {
+  font-size: 40px;
+
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+.cta {
+  border-bottom: 1px solid black;
+  display: inline-block;
+  padding-bottom: 7px;
+}
+
+.cta:hover {
+  font-weight: bold;
+}
+
+.Contact {
+  margin-top: 100px;
+  font-size: 20px;
+}
